@@ -1,0 +1,248 @@
+body {
+  font-family: 'Fira Code', monospace;
+  background: #75E6DA;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #112e52;
+}
+
+a {
+  color: #253566;
+}
+
+a:hover {
+  background: #253566;
+  color: #ffffff;
+}
+
+section {
+  margin: 50px auto;
+}
+
+h1 {
+  color: #253566;
+  margin: 0 0 50px 0;
+  font-size: 80px;
+  line-height: 85px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin: 0 auto 40px auto;
+  background: #fdfd96;
+  color: #253566;
+  transform:rotate(1.5deg);
+}
+
+.contact-header {
+  transform:rotate(-1.5deg);
+}
+
+.container {
+  max-width: 75%;
+  margin: 10vh auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.main-about {
+  justify-content: stretch;
+}
+
+.main-contact {
+  margin: 20px 0;
+}
+
+.main-contact a {
+  text-decoration: none;
+}
+
+.main-contact .fab {
+  font-size: 30px;
+}
+
+.highlight {
+  transform: translateY(-2px);
+  background: rgb(255,255,255, 0.4);
+  font-weight: bold;
+}
+
+.alt-highlight {
+  font-size: 20px;
+  transform: translateY(-2px);
+  background: rgb(37,53,102, 1);
+  color: #ffffff;
+  line-height: 15px;
+}
+
+.main-portfolio {
+  line-height: 1.2em;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0;
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+}
+
+.project {
+  max-width: 45%;
+  margin: 0 20px;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-description {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  display: block;
+  opacity: 0.7;
+  margin: 15px auto;
+}
+
+.project-image img:hover {
+  opacity: 1;
+}
+
+.project-description,
+.project-languages,
+.project-links a {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.project-languages .css {
+  background: #F6AA1C;
+  display: inline-block;
+  transform: translateY(2px);
+}
+
+.project-languages .node {
+  background: #B31B6C;
+  display: inline-block;
+  transform: translateY(2px);
+}
+
+.project-languages .express {
+  background: #F6AC9C;
+  display: inline-block;
+  transform: translateY(2px);
+}
+
+.project-languages .html {
+  background: #AA7BC3;
+  display: inline-block;
+  transform: translateY(-2px);
+}
+
+.project-languages .javascript {
+  background: #E2F9B8;
+  display: inline-block;
+  transform: translateY(-1px);
+}
+
+.project-languages .bulma {
+  background: #0dacff;
+  display: inline-block;
+  transform: translateY(-1px);
+}
+
+.project-languages .bootstrap {
+  background: #cd429a;
+  display: inline-block;
+  transform: translateY(0px);
+}
+
+.project-languages .ruby {
+  background: #9b111e;
+  color: white;
+  display: inline-block;
+  transform: translateY(-2px);
+}
+
+.project-languages .rails {
+  background: #b7410e;
+  display: inline-block;
+  transform: translateY(1px);
+}
+
+.project-languages .sass {
+	background-color: #c73e1d;
+	background-image: -webkit-linear-gradient(bottom right, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+	background-image: -o-linear-gradient(bottom right, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+	background-image: linear-gradient(to top left, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+  display: inline-block;
+  transform: translateY(-1px);
+}
+
+.main-contact .fas {
+    font-size: 30px;
+    font-weight: 10;
+}
+
+.credit {
+	font-size: 10px;
+}
+
+.name:hover{
+    position: relative;
+    color: green;
+}
+
+.name:hover:after {
+    content: '';
+    background-image: url('../img/sam_smile.png');
+    background-size: 175px 175px;
+    background-repeat: no-repeat;
+    display: block;
+    position: fixed;
+    width:250px;
+    height:250px;
+    left: 50px;
+    top: 50px;
+}
+
+/* Blinking Animation Start*/
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 1em;
+  color: #253566;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #253566;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #253566;
+  }
+}
+
+/* Blinking Animation End*/
