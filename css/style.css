@@ -4,6 +4,16 @@ body {
   font-size: 20px;
   line-height: 1.5em;
   color: #112e52;
+  transition: opacity 150ms ease-in;
+}
+
+body .body-wrapper {
+  opacity: 0;
+  transition: opacity 150ms ease-in;
+}
+
+body.ready .body-wrapper {
+  opacity: 1;
 }
 
 a {
