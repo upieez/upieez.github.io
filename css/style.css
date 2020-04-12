@@ -162,6 +162,7 @@ h2 {
 
 .project-languages .node {
   background: #B31B6C;
+  color: white;
   display: inline-block;
   transform: translateY(2px);
 }
@@ -207,6 +208,19 @@ h2 {
   background: #b7410e;
   display: inline-block;
   transform: translateY(1px);
+}
+
+.project-languages .php {
+  background: #0e49b7;
+  color: white;
+  display: inline-block;
+  transform: translateY(-1px);
+}
+
+.project-languages .mysql{
+  background: #dd8512;
+  display: inline-block;
+  transform: translateY(0px);
 }
 
 .project-languages .sass {
