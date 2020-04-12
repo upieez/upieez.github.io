@@ -32,9 +32,19 @@ section {
 h1 {
   color: #253566;
   margin: 0 0 50px 0;
-  font-size: 80px;
+  font-size: 3.5em;
   line-height: 85px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 600px){
+  h1 {
+    color: #253566;
+    margin: 0 0 50px 0;
+    font-size: 1.75em;
+    line-height: 85px;
+    font-weight: 700;
+  }
 }
 
 h2 {
@@ -95,14 +105,24 @@ h2 {
 .portfolio {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 35px 0;
   border-bottom: 1px solid white;
   padding-bottom: 30px;
 }
 
 .project {
-  max-width: 45%;
+  flex: 1 0 27%;
+  max-width: 33%;
   margin: 0 20px;
+}
+
+@media only screen and (max-width: 600px) {  
+  .project {
+    flex: none;
+    max-width: 85%;
+    margin-bottom: 3rem;
+  }
 }
 
 .project-title {
@@ -204,7 +224,7 @@ h2 {
 }
 
 .credit {
-	font-size: 10px;
+  font-size: 0.5rem;
 }
 
 .name:hover{
