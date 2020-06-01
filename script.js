@@ -20,3 +20,8 @@ document.querySelector(".main-message").innerHTML =
 const myName = document.querySelector("#my-name");
 const myTitle = document.querySelector("#my-title");
 
+const a1 = annotate(myName, { type: "highlight", color: "#ffff00" });
+const a2 = annotate(myTitle, { type: "circle", color: "	#6495ed" });
+
+const ag = annotationGroup([a1, a2]);
+ag.show();
