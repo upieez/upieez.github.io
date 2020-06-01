@@ -16,3 +16,7 @@ const greetings = [
 
 document.querySelector(".main-message").innerHTML =
 	greetings[Math.floor(Math.random() * greetings.length)];
+
+const myName = document.querySelector("#my-name");
+const myTitle = document.querySelector("#my-title");
+
