@@ -33,6 +33,5 @@ const a5 = annotate(livinLocal, { type: "box", color: "	#6495ed" });
 const a6 = annotate(lunchLeh, { type: "box", color: "	#6495ed" });
 const a7 = annotate(matchDonut, { type: "box", color: "	#6495ed" });
 
-const ag = annotationGroup([a1, a2]);
 const ag = annotationGroup([a1, a2, a3, a4, a5, a6, a7]);
 ag.show();
