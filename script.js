@@ -23,6 +23,7 @@ const upcoming = document.querySelector("#upcoming");
 const regify = document.querySelector("#regify");
 const livinLocal = document.querySelector("#livin-local");
 const lunchLeh = document.querySelector("#lunch-leh");
+const matchDonut = document.querySelector("#match-donut");
 
 const a1 = annotate(myName, { type: "highlight", color: "#ffff00" });
 const a2 = annotate(myTitle, { type: "underline", color: "	#6495ed" });
@@ -30,6 +31,7 @@ const a3 = annotate(upcoming, { type: "circle", color: "	#6495ed" });
 const a4 = annotate(regify, { type: "box", color: "	#6495ed" });
 const a5 = annotate(livinLocal, { type: "box", color: "	#6495ed" });
 const a6 = annotate(lunchLeh, { type: "box", color: "	#6495ed" });
+const a7 = annotate(matchDonut, { type: "box", color: "	#6495ed" });
 
 const ag = annotationGroup([a1, a2]);
 ag.show();
