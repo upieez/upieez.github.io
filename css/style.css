@@ -84,6 +84,10 @@ h2 {
 	font-size: 30px;
 }
 
+.main-contact .fa {
+	font-size: 27px;
+}
+
 .highlight {
 	transform: translateY(-2px);
 	background: rgb(255, 255, 255, 0.4);
